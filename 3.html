@@ -1,0 +1,84 @@
+create a student registration form using HTMP only that collects user information such as full name emmail, password, age, gender, course and acceptance of terms and conditions. Use approprite from elements
+
+
+
+<!DOCTYPE html>
+
+<title>Creating form</title>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="" method="post">
+            <br>
+            <br>
+                <label for="fullname">Full name</label><br>
+                <input type="text" name="fullname" id="fullname" placeholder="Enter your fullname" required pattern="[A-Za_z\s{3, 20}]">
+                <br>
+                <br>
+                <br>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="enter your gmail here" required> 
+                <br>
+                <br>
+
+                <label for="password">password</label>
+                <input type="password" name="password" id="password" required>
+                <br>
+                <br>
+                <label for="age" >age</label>
+                <input type="number" name="age" id="age" required min="0" max="120">
+                <br>
+                <br>
+
+                <label for="gender">gender</label>
+                <input type="checkbox">
+                <label for="male">male</label>
+                <input type="checkbox">
+                <label for="">female</label>
+                <input type="checkbox">
+                <label for="">others</label>
+                <br>
+                <br>
+                <label for="course">course</label>
+                <br>
+                <br>
+
+                <label for="">Select course</label>
+                <select name="" id="">
+
+
+                    <option value="">Please choose an option</option>
+                    <option value="AI">AI</option>
+                    <option value="web dev">web dev</option>
+                    <option value="app dev">app dev</option>
+                </select>
+                <!-- <label for="">ai</label>
+                <label for="">cyber security</label>
+                <label for="">web dev</label>
+                <label for="">app development</label> -->
+                <br>
+                <br>
+
+                <label for="">Hobbies</label>
+                <input type="radio" name="" id="" value="cricket">
+                <label for="">cricket</label>
+                <input type="radio" name="" id="" value="football">
+                <label for="">football</label>
+                <input type="radio" name="" id="" value="tt">
+                <label for="">tt</label>
+                <br>
+
+                <input type="checkbox" name="" id="">
+                <label for="">Do you accept the terms and conditions</label>
+                
+                <br>
+
+                <button type="reset">SUBMIT</button>
+                <br>
+
+        </form>
+    </body>
+</html>
