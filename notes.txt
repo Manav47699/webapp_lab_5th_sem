@@ -1,0 +1,13 @@
+Q. What are Escape characters?
+-> Common examples
+&lt; → <
+&gt; → >
+&amp; → &
+
+-------------------------------------------------------------
+
+Q. What is the difference between bold and strong & italic and emphesis?
+-> bold and strong look the same when rendered by the browser. But strong and emphesis is used when we want to convey the semantic meaning of the word. Example: we can use strong and emphesis when we want the screen reader to put stress on certain words
+
+
+---------------------------------------------------------

@@ -1,28 +1,51 @@
-<!-- <h1>design a webpage that uses differnet heading tags (</h1> to <h6>) to display titles  -->
+Create a personal profile card using HTML only that displays a
+user’s basic information in a structured format. The profile card
+should include a profile image, full name, short description or bio,
+research interest, skills and contact information such as email or
+website using hyperlinks.
 
-    <h1>Welcome Eveeryone to WEB APPLICATION PROGRAMMING Lab</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab1.4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br><hr><hr><br>
+    <div style="display: flex;">
+        <div>
+    <h1>Name: Manav Acharya</h1>
     <br>
-    <h2>Purwanchal Engineering</h2>
+    <h1>Bio: </h1>
     <br>
-    <h2>Dhanran, Sunsari</h2>
+    <p>Hi there my Name is Manav Acharya, from Dharan. I am currently studying Computer Engineering from Purwanchal Campus. My hobbies out side studies include cricket, table tennis and music.</p>
     <br>
-    <h1>Lab1: HTML Basics and fundamentals</h1>
+    <h1>Research interest: I am interest in developing softwares with AI and robotics intergrations. Here is an example -> <a href="https://github.com/Manav47699/ROBOTICS-ai-garbage-classifier.git">Github repo link</a></h1>
     <br>
-    <h3>Question - 1</h3>
+    <h1>Skills:</h1>
+            <ul>
+                <li> Django and FastAPI for backend</li>
+                <li>NextJS for frontend</li>
+                <li>Ollama with RAG and finetuning for AI/ML integration</li>
+                <li>Aurdino, ESP32 and RasberryPI for robotics</li>
+                <li>PyQt5 for desktop applications</li>
+            </ul>
     <br>
-    <p><b style="font-size: smaller; font: bold;">Design a webpage that uses different tags &lt;h1&gt; to diplay titles and subtitles. Write paragraph using the tag and format important text using bold (&lt;b&gt;) </b></p>
-    <br>
-    <p>This is a sample paragraph where wedemonstrate <b>bold text</b> and <i>itallic text</i>. You can use <strong>strong importance</strong> or <em>emphasis</em> to highlight text.</p>
-    <br>
-    <p>Lets understand the difference between strong & b and i & em tags</p>
-    <br>
-    <ul>
-        <li>strong and b tag</li>
-        <ul>
-            <li>the purpose  of b tag is to bold text for........................</li>
-        </ul>
+    <h1>Contacts:</h1>
+            <ul>
+                <li><a href="manavacharya.com.np">My portfolio</a></li>
+                <li>My gmail: acharyamanav7@gmail.com</li>
+            </ul>
 
 
-    </ul>
+    
+        </div>
+        <div>
+            <img src="" alt="profile image">
 
-
+        </div>
+    </div>
+</body>
+</html>
