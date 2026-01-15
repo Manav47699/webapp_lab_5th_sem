@@ -1,0 +1,87 @@
+<!-- Create a multi-section webpage using semantic HTML elements
+only. The webpage should include a &lt;header> section containing
+the title of the website, a &lt;nav> section with navigation links,
+multiple &lt;section> elements for different content areas, and a
+&lt;footer> section for footer information. Each navigation link should
+use anchor tags (&lt;a>) to scroll to its corresponding section using
+section id attributes. Ensure proper use of semantic tags,
+meaningful section headings, and well-structured HTML code.
+Navigation between sections should work correctly when the links
+are clicked. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab1.6</title>
+</head>
+
+<body>
+    <h1>Create a multi-section webpage using semantic HTML elements
+    only. The webpage should include a &lt;header> section containing
+    the title of the website, a &lt;nav> section with navigation links,
+    multiple &lt;section> elements for different content areas, and a
+    &lt;footer> section for footer information. Each navigation link should
+    use anchor tags (&lt;a>) to scroll to its corresponding section using
+    section id attributes. Ensure proper use of semantic tags,
+    meaningful section headings, and well-structured HTML code.
+    Navigation between sections should work correctly when the links
+    are clicked.</h1>
+    <header>
+
+        <nav style="display: flex; 
+        justify-content: center;
+        gap: 20px;
+        padding: 15px; ">
+            <a href="#about">Go to 1st paragraph</a>
+            <a href="#teams">Go to 2nd paragraph</a>
+            <a href="#format">Go to 3rd section</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="about">
+            <h2>About IPL</h2>
+            <p>
+                The Indian Premier League (IPL) is a professional Twenty20 cricket
+                league in India, started in 2008 and organized by the BCCI.
+            </p>
+        </section>
+
+        <section id="teams">
+            <h2>Popular Teams</h2>
+            <p>
+                Chennai Super Kings and Mumbai Indians are the most successful teams
+                with five titles each, followed by Kolkata Knight Riders.
+            </p>
+        </section>
+
+        <section id="format">
+            <h2>Tournament Format</h2>
+            <p>
+                Since 2022, teams are divided into groups and the top teams qualify
+                for playoffs to determine the champion.
+            </p>
+        </section>
+    </main>
+
+
+    <footer id="footer" style="text-align: center;">
+        <br><br>
+        This is the footer section
+    </footer>
+<!-- 
+making sure all section gets the height of the viewport so that we can actually see the nav bar working -->
+<style>
+    section {
+        min-height: 100vh;   
+        padding: 40px;
+    }
+</style>
+
+</body>
+
+
+
+</html>
