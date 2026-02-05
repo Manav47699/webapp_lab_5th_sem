@@ -1,0 +1,11 @@
+#warning{
+    display: none;
+    margin: 8px;
+    padding: 10px;
+    background-color: aqua;
+    color: brown;
+    border-left: 1px;
+    border-radius: 5px;
+    font-size: 14px;
+
+}
