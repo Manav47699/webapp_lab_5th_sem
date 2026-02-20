@@ -1,3 +1,14 @@
+<!-- Create a webpage that demonstrates the CSS Box Model. Design multiple <div> elements and apply margin, padding, border, width, and height properties to each element. Use different border styles and border radius values. Show the difference between box-sizing: content-box and box-sizing: border-box by applying them to different elements. Ensure proper spacing between elements so that the effect of each box model property is clearly visible -->
+
+<!--
+
+- CSS box model: it is set using "box-sizing:" attribute. A html element is considered a box divided into Content, Padding, Border & Margin.
+
+- content-box(default): Here the height and width that we set are only applied to the Content part.
+
+- border-box: Here width and height include padding and border.
+
+    -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,20 +19,13 @@
     </title>
 </head>
 <body>
-    <div id="div1" style="background-color: blue; ">
+    <div id="div1">
         <h1>this is `1st div section</h1>
     </div>
-    <div style="background-color: yellow; border: 10px; height: 50px; width: 100px;" >
+    <div id="div2">
         <h1>this is 2nd div section</h1>
     </div>
-
-    <div style="content:normal ;"><h1>this is content box</h1></div>
-    <div style="border: 30px;"><h1>this is border box</h1></div>
     
 </body>
 </html>
-<!-- 
-border box ra content box hunxa, difference??. 
-border box-> 
-content box->  total width of content total width of element
--->
+

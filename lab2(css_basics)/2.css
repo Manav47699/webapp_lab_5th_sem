@@ -1,0 +1,29 @@
+#div1{
+    color: blue;
+    background-color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+#div2{
+    color: red;
+    background-color: rgb(179, 255, 0);
+    font-family:'Times New Roman', Times, serif;
+    font-size: small;
+    font-weight:400;
+    text-align: end;    
+}
+
+#div3{
+    color: rgb(0, 255, 251);
+    background-color: rgb(255, 0, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: 800;
+    text-align: justify;    /*this spreads the the text*/
+    
+}

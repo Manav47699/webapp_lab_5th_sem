@@ -1,12 +1,21 @@
-body{
-    background-color: brown;
-    /* font-family: 'Times New Roman', Times, serif;   #yo use gara, xaina bhane yo, tio in xaina bhane yo */
 
-}
 #div1{
-padding: 40%;
-text-align: center;
-font-weight: lighter;
+    margin: 10%;
+    padding: 10%;
+    border: 10%;
+    width: 10px;
+    height: 10px;
+    box-sizing: content-box;
+    background-color: aqua;
 }
-/* line height */
+
+#div2{
+    margin: 10%;
+    padding: 10%;
+    border: 10%;
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    background-color: bisque;
+}
 
