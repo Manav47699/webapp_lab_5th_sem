@@ -1,1 +1,52 @@
 <!-- Create a webpage that demonstrates CSS positioning and display properties. Use different elements and apply static, relative, absolute, fixed, and sticky positioning. Apply display values such as block, inline, inline-block, and none. Use z-index to show overlapping elements and apply overflow properties such as hidden, scroll and auto where necessary. -->
+
+
+<!--
+- position: static → Default position; element stays in normal document flow.
+- position: relative → Moves relative to its original position without leaving normal flow.
+- position: absolute → Removes element from normal flow and positions it relative to the nearest positioned ancestor.
+- position: fixed → Positions element relative to the viewport; stays fixed when scrolling.
+- position: sticky → Acts normal until a scroll point, then sticks like fixed.
+
+
+- display: block → Takes full width and starts on a new line.
+- display: inline → Stays in line and only takes necessary width.
+- display: inline-block → Stays inline but allows width and height to be set.
+- display: none → Completely removes element from layout and screen.
+
+
+- z-index → Controls which positioned element appears on top.
+
+- overflow: hidden → Hides content that goes outside the box.
+- overflow: scroll → Always shows scrollbars.
+- overflow: auto → Shows scrollbars only when needed.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="3.css">
+    <title>css positioning and display properties</title>
+</head>
+<body>
+    <div id="div1">
+        <h1>this is static positioning</h1>
+    </div>
+    <div id="div2">
+        <h1>this is realtive possitioning</h1>
+    </div>
+    
+    <div id="div4">
+        <h1>this is fixed possitioning</h1>
+    </div>
+    <div id="div5">
+        <h1>this is sticky possitioning</h1>
+    </div>
+    <div id="div3">
+        <h1>this is absolute positioning</h1>
+    </div>
+
+</body>
+</html>
