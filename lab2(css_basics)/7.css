@@ -1,11 +1,33 @@
-#warning{
-    display: none;
-    margin: 8px;
-    padding: 10px;
-    background-color: aqua;
-    color: brown;
-    border-left: 1px;
+#form {
+    text-align: center;
+    border: 1px solid gray;
     border-radius: 5px;
-    font-size: 14px;
+}
 
+
+#warning {
+    background-color: #ffdddd;
+    border: 1px solid red;
+    color: red;
+    padding: 5px;
+    margin-top: 5px;
+    display: none;              /* hidden by default */
+}
+
+
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+button:hover {
+    background-color: darkblue;
 }

@@ -1,2 +1,49 @@
 <!-- Create a personal profile card using HTML and CSS that displays a user’s basic information in a visually structured format. The profile card should include a profile image, full name, short description or bio, research interests, skills and contact information such as email or website using hyperlinks. Use CSS to style the card with appropriate borders, shadows, spacing, background colors and font styles. Apply layout techniques such as Flexbox or Grid to align the content inside the card. Include hover effects, transitions or subtle animations to enhance the presentation of the card and ensure that all information is clearly readable and well-organized. -->
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="8.css">
+    <title>lab1.4</title>
+    
+</head>
+<body>
+    
+    <div>
+        <div>
+    <h1>Name: Manav Acharya</h1>
+    <br>
+    <h1 id="bio">Bio: </h1>
+    <br>
+    <p id="bio_detail">Hi there my Name is Manav Acharya, from Dharan. I am currently studying Computer Engineering from Purwanchal Campus. My hobbies out side studies include cricket, table tennis and music.</p>
+    <br>
+    <h1 id="research_interest">Research interest: I am interest in developing softwares with AI and robotics intergrations. Here is an example -> <a href="https://github.com/Manav47699/ROBOTICS-ai-garbage-classifier.git">Github repo link</a></h1>
+    <br>
+    <h1 id="skills">Skills:</h1>
+            <ul>
+                <li> Django and FastAPI for backend</li>
+                <li>NextJS for frontend</li>
+                <li>Ollama with RAG and finetuning for AI/ML integration</li>
+                <li>Aurdino, ESP32 and RasberryPI for robotics</li>
+                <li>PyQt5 for desktop applications</li>
+            </ul>
+    <br>
+    <h1 id="contacts">Contacts:</h1>
+            <ul>
+
+                <strong><li><a href="https://manavvercel.vercel.app/" target="_blank">My portfolio</a></li></strong>
+                <li>My gmail: acharyamanav7@gmail.com</li>
+            </ul>
+
+
+    
+        </div>
+        <div id="profile_pic">
+            <img src="about_me_photo.jpeg" alt="profile image" width="300" height="400">
+
+        </div>
+    </div>
+</body>
+</html>

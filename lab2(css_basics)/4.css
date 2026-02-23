@@ -1,0 +1,39 @@
+#container {
+    display: flex;
+    flex-direction: row;      
+    justify-content: space-around; 
+    align-items: center;      
+    flex-wrap: wrap;          
+    
+    background-color: red;
+    height: 100%;
+    
+}
+
+/* flex items */
+#h1 {
+    background-color: green;
+    
+    flex-grow: 1;
+    flex-basis: 150px;
+}
+
+#h2 {
+    background-color: pink;
+    
+    flex-grow: 2;     /* grows more */
+    flex-shrink: 1;
+    flex-basis: 150px;
+}
+
+#h3 {
+    background-color: blue;
+    flex-grow: 1;
+    flex-shrink: 2;   /* shrinks more */
+    flex-basis: 200px;
+}
+
+#h4 {
+    background-color: yellow;
+    
+}

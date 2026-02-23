@@ -1,10 +1,12 @@
-create a student registration form using HTMP only that collects user information such as full name emmail, password, age, gender, course and acceptance of terms and conditions. Use approprite from elements
+<!-- Design a student registration form using HTML and CSS that collects user information such as username, email, password, age, gender, course and acceptance of terms and conditions. Use CSS to style the form elements including text fields, radio buttons, dropdown lists and checkboxes to make the form visually appealing and user-friendly. Apply layout techniques such as spacing, alignment, borders, background colors and font styling to organize the form in a structured manner. Ensure that form validation messages and required fields are clearly visible and highlight the input fields when focused. As a challenge, use CSS to display a message box or style the alert area that appears if the user’s age is less than 16 and apply hover or focus effects on the submit button to indicate interactivity.
+ -->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="7.css">
     <title>lab1.3</title>
     
 </head>
@@ -81,6 +83,18 @@ create a student registration form using HTMP only that collects user informatio
                 <br>
 
         </form>
+        <script>
+    const ageInput = document.getElementById("age");
+    const warning = document.getElementById("warning");
+
+    ageInput.addEventListener("input", function () {
+        if (ageInput.value < 18 && ageInput.value != "") {
+            warning.style.display = "block";
+        } else {
+            warning.style.display = "none";
+        }
+    });
+</script>
     
 </body>
 </html>

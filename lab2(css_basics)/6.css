@@ -1,0 +1,77 @@
+/*this is how we define variables in css*/
+:root {
+    --primary-color: red;
+    --hover-color: blue;
+    --focus-border: green;
+    --text-color: white;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+
+button:hover {
+    background-color: var(--hover-color);
+    color: aqua;
+    transform: scale(5) ;
+}
+
+/* Active effect (click) */
+button:active {
+    transform: scale(1.5);
+}
+
+input[type="text"] {
+    
+    border: 1px solid gray;
+    border-radius: 4px;
+    transition: border 0.3s ease, transform 0.3s ease;
+}
+
+input:focus {
+    border: 2px solid var(--focus-border);
+    transform: scale(1.05);
+    
+}
+
+/* ===== H1 Pseudo-elements ===== */
+h1::before {
+    content: "⭐ ";
+}
+
+h1::after {
+    content: " ⭐";
+}
+
+
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+button {
+    animation: bounce 2s infinite;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    
+    button {
+        width: 100%;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+}
