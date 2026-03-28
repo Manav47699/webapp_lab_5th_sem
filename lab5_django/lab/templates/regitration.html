@@ -1,0 +1,28 @@
+<h2>User Registration</h2>
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Register</button>
+</form>
+
+<hr>
+
+<h2>Registered Users</h2>
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Username</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Email</th>
+    </tr>
+    {% for user in users %}
+    <tr>
+        <td>{{ user.name }}</td>
+        <td>{{ user.username }}</td>
+        <td>{{ user.age }}</td>
+        <td>{{ user.gender }}</td>
+        <td>{{ user.email }}</td>
+    </tr>
+    {% endfor %}
+</table>

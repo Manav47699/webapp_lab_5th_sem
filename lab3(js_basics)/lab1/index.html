@@ -1,0 +1,32 @@
+<!-- Create a site that needs to have two buttons; one for adding an item into the list and another for removing the last item from the list. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lab 3.1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Dynamic List Controller</h2>
+    <div class="buttons">
+      <button id="add" style="background-color: red;">Add Item</button>
+      <button id="remove" style="background-color: green;">Remove Last Item</button>
+    </div>
+    <div class="input">
+
+      <label for="itemInput" style="background-color: skyblue;">Type an item to insert into List:</label>
+      <input type="text" id="itemInput" placeholder="Enter item"  style="background-color: skyblue;"/>
+      
+    </div>
+    <div>
+    <ul id="item" style="background-color: yellow;">
+      <li>Apple</li>
+      <li>Ball</li>
+    </ul>
+    </div>
+
+ <script src="script.js"></script>
+  </body>
+</html>
